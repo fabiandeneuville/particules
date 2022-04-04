@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Particules</title>
+</head>
+<body>
+    <div class="reglages">
+        <form>
+            <label for="size">Size</label>
+            <input type="range" name="size" id="size" value="10" min="1" max="30">
+            <label for="quantity">Quantity</label>
+            <input type="range" name="quantity" id="quantity" value="100" min="25" max="1000">
+            <label for="red">R</label>
+            <input type="range" name="red" id="red" value="255" min="0" max="255">
+            <label for="green">G</label>
+            <input type="range" name="green" id="green" value="255" min="0" max="255">
+            <label for="blue">B</label>
+            <input type="range" name="blue" id="blue" value="255" min="0" max="255">
+            <button id="clear">CLEAR</button>
+        </form>
+    </div>
+    <canvas id="canvas1"></canvas>
+    <script src="app.js"></script>
+</body>
+</html>
