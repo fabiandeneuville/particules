@@ -44,8 +44,7 @@ blueInput.addEventListener("change", () => {
     init();
 });
 
-clear.addEventListener("click", (e) => {
-    e.preventDefault();
+clear.addEventListener("click", () => {
     size = 10;
     quantity = 100;
     red = 255;
